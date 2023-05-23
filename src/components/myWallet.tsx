@@ -14,13 +14,12 @@ function Wallet() {
   console.log(differentPkeys(mnemonic));
   const HdnodeAddress = differentPkeys(mnemonic);
 
-  const privatekey =
-    '0xe5594b4814ce6485455096a3937ac4fb96d04598543ff895072a28d1ec81e894';
+  const privatekey =''
   const publicKey =
-    '0x0476a63b569f29bb3dd7f1ba37bfd2d5c45b17faaf54f07cf9efeb69ec9d558831d1e6f79e2f7378c3f95ce21f17db1e0c1ef631d1dab2ecf8a43618c7c6007a83';
-  const publicAddress = '0x4CfCa8920e7EF4465Eb2E0bB26e240D8A134F2a0';
+    '';
+  const publicAddress = '';
 
-  const recieverAddress = '0xa35d0F3a4d61A72BdDDb0701DcbE48e2cE9509D0';
+  const recieverAddress = '';
 
   async function SR() {
     try {
